@@ -8,6 +8,6 @@
 
 
 ### 应用程序目录及文件清单
-讲座信息查询预约系统主要构建和使用的目录由manifests、java 和 res，在 manifests 中主要对 AndroidManifest.xml 全局声明文件进行了编写，设定程序入口的活动。    
-java目录下放置系统主要的java的代码，子目录有data和ui，data目录用于存放数据库相关操作类和封装数据的实体类，ui目录用于存放每个功能模块所用到的Activity、Fragment、ViewModel和UiAdapter类。在data和ui目录之外，还有为管理员和普通用户设置其底部导航栏和与之关联的导航视图的AdminActivity、MainActivity，以及存放全局上下文环境、对象、ViewModel的MyApplication。    
-对于资源文件夹res，主要用到的目录有存放图片和图标资源的drawable、存放Fragment、Activity以及RecyclerView的item对应布局的layout、存放底部导航栏样式的menu、关联底部导航栏和Fragment页面的navigation，以及存放系统整体风格的values\themes。
+1. 讲座信息查询预约系统主要构建和使用的目录由manifests、java 和 res，在 manifests 中主要对 AndroidManifest.xml 全局声明文件进行了编写，设定程序入口的活动。    
+2. java目录下放置系统主要的java的代码，子目录有data和ui，data目录用于存放数据库相关操作类和封装数据的实体类，ui目录用于存放每个功能模块所用到的Activity、Fragment、ViewModel和UiAdapter类。在data和ui目录之外，还有为管理员和普通用户设置其底部导航栏和与之关联的导航视图的AdminActivity、MainActivity，以及存放全局上下文环境、对象、ViewModel的MyApplication。    
+3. 对于资源文件夹res，主要用到的目录有存放图片和图标资源的drawable、存放Fragment、Activity以及RecyclerView的item对应布局的layout、存放底部导航栏样式的menu、关联底部导航栏和Fragment页面的navigation，以及存放系统整体风格的values\themes。
