@@ -1,0 +1,2 @@
+# LectureApplication
+用Android Studio和Java开发的讲座预约系统APP
