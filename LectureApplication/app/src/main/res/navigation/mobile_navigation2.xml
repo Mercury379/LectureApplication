@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/navigation_home2">
+
+    <fragment
+        android:id="@+id/navigation_home2"
+        android:name="com.example.lectureapplication.ui.newhome.NewHomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home2" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard2"
+        android:name="com.example.lectureapplication.ui.lecture.LectureFragment"
+        android:label="讲座信息记录"
+        tools:layout="@layout/fragment_lecture" />
+
+    <fragment
+        android:id="@+id/navigation_notifications2"
+        android:name="com.example.lectureapplication.ui.user.UserFragment"
+        android:label="用户管理"
+        tools:layout="@layout/fragment_user" />
+</navigation>

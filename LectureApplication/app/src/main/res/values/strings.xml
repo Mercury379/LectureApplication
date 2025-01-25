@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">讲座信息查询预约系统</string>
+    <string name="title_home">首页</string>
+    <string name="title_dashboard">历史记录</string>
+    <string name="title_notifications">我的</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
